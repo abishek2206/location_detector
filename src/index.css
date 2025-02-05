@@ -1,13 +1,58 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj3UcK4F4d8BX8t-WS_lH7zRoOY1kp4WEvYw&s');
+  background-size: cover;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* .logintransform{
+  transition: transform 1s;
+} */
+/* .logintransform:hover{
+  transform:rotate(360deg);
+} */
+.loginlogo{
+ height: 40px;
+ width: 40px;
+ border-radius: 30px;
+ margin-left: -25px;
+}
+.facelogo{
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  margin-left: 50px;
+ }
+ .loginbutton{
+  background-color: gold;
+  border-radius: 10px;
+  color: darkblue;
+  padding:5px 15px;
+  transition: transform 1s;
+ }
+ .loginbutton:hover{
+  transform:rotate(360deg);
+ }
+ .Navdiv{
+  height: 50px;
+  width: 1200px;
+  backdrop-filter: 30px;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+}
+.Navdiv1{
+  display: flex;
+  /* color: black; */
+}
+.profile{
+  margin-left:600px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-left:8px;
+  padding-right: 8px;
+  justify-content: center;
+  height: 20px;
+  width: 50px;
+}
+.hometext{
+  font-weight:900px;
+  font-size: 70px;
 }
